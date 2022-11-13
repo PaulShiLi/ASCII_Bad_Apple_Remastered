@@ -58,7 +58,7 @@ type = <argument type>
                         Include custom video path | Default:
                         C:\YOUR_PATH_TO_FOLDER/ASCII_Bad_Apple_Remastered/resources/video.mp4
 
-* type = <string> (widthxheight)
+* type = <string> (widthxheight & 0x0 will retain original video dimensions)
 	-d DIMENSION, --dimension DIMENSION
                         Include dimension | Default: 0x0
 
