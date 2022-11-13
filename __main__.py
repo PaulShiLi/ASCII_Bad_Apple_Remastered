@@ -49,7 +49,7 @@ class parse:
         parser.add_argument("-d", "--dimension", default="100x0", help="Include dimension | Default: 0x0", type=str)
         parser.add_argument("-t", "--threads", default=4, help="Number of threads when building ASCII frames | "
                                                                "Default: 4", type=int)
-        parser.add_argument("-f", "--soundFormat", default="mp3", help="Sound audio quality when played in terminal | "
+        parser.add_argument("-f", "--soundFormat", default="mp3", help="Sound audio format when played in terminal | "
                                                                        "Default: mp3", type=str)
         parser.add_argument("-e", "--enableDebug", action='store_true',
                             help="Enables messages to be shown during the build process for debugging")
